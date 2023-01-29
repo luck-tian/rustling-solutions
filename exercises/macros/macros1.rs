@@ -1,7 +1,8 @@
 // macros1.rs
-// Make me compile! Execute `rustlings hint macros1` for hints :)
+// Execute `rustlings hint macros1` or use the `hint` watch subcommand for a hint.
 
 
+#[macro_export]
 macro_rules! my_macro {
     () => {
         println!("Check out my macro!");

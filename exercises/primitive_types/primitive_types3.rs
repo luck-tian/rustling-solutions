@@ -1,11 +1,12 @@
 // primitive_types3.rs
 // Create an array with at least 100 elements in it where the ??? is.
-// Execute `rustlings hint primitive_types3` for hints!
+// Execute `rustlings hint primitive_types3` or use the `hint` watch subcommand for a hint.
 
 
 fn main() {
-    let a = String::from("woding");
-
+    //let a = "ass";
+    //let a = vec![1,2,3];
+    let a = String::from("aaaaa");
     if a.len() >= 100 {
         println!("Wow, that's a big array!");
     } else {
